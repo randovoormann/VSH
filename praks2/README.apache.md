@@ -6,5 +6,7 @@ index.html fail asub arvutis tegelikult /var/www/html kaustas
 
 
 tavakasutajale avaliku kausta tegemiseks kasutasin käsku mkdir /home/it/public_html.
+
 seejärel linkisin selle /var/www kaustaga kasutades käsku ln -s /home/it/public_html/ /var/www
+
 peale seda lubasin kasutaja kaustad käsuga a2enmod userdir ning tegin apache2 teenusele restarti. 
