@@ -25,3 +25,9 @@ mysqli käsureal sisselogimiseks ilma paroolita tegin root kasutaja kodukausta f
 user=root
 password=qwerty
 ```
+
+apt install phpmyadmin käsuga paigaldasin myphpadmini lehe. Paroolideks määrasin qwerty
+
+järgmisena tegin nano /etc/apache2/apache2.conf ja lisasin rea Include /etc/phpmyadmin/apache.conf ja tegin
+systemctl restart apache2 käsuga apache teenusele restarti. Järgmisena läksin phpmyadmin lehele sisestades 172.23.13.49/phpmyadmin ja logisin
+sisse kontoga root ja parooliga qwerty
