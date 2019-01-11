@@ -41,7 +41,10 @@ systemctl restart apache2 käsuga apache teenusele restarti. Järgmisena läksin
 sisse kontoga root ja parooliga qwerty
 
 
-kasutajale oma lehe saamiseks tegin public_html kausta test.php faili, kuhu sisestasin tavalise teksti ning php käsuks panin <?php echo '<p> Kasutaja enda leht </p>'; ?>
+kasutajale oma lehe saamiseks tegin public_html kausta test.php faili, kuhu sisestasin tavalise teksti ning php käsuks panin 
+```
+<?php echo '<p> Kasutaja enda leht </p>'; ?>
+```
 
 kuna apache-l on defaultist keelatud php moodulid siis muutsin /etc/apache2/mods-enabled/php7.0.conf failis userdirmodule read commentiga ära.
 
