@@ -41,7 +41,7 @@ sisse kontoga root ja parooliga qwerty
 
 # php lehe tegemine
 
-algselt tegin index.html faili, kuhu panin algse lehe. Antud fail asub praks3 kaustas
+algselt tegin index.php faili, kuhu panin algse lehe. Antud fail asub praks3 kaustas
 
 php info kuvamiseks tegin /var/www/html kausta faili nimega test.php
 
