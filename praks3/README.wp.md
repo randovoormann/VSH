@@ -6,7 +6,7 @@ php moodulite paigaldamiseks lisasin /etc/apt/sources.list faili read:
 deb http://packages.dotdeb.org jessie all
 deb-src http://packages.dotdeb.org jessie all
 ```
-peale seda salvestasin faili ja tegin apt-update, peale mida sain teha php7.0-cli php7.0-curl php7.0-dev php7.0-zip php7.0-fpm php7.0-gd php7.0-xml php7.0-mysql php7.0-mcrypt php7.0-mbstring php7.0-opcache
+peale seda salvestasin faili ja tegin apt-update, peale mida sain teha php7.0-cli php7.0-curl php7.0-dev php7.0-zip php7.0-fpm php7.0-gd   php7.0-xml php7.0-mysql php7.0-mcrypt php7.0-mbstring php7.0-opcache
 
 selleks, et paigaldada veebiserveriks vajalikud php paketid. 
 
