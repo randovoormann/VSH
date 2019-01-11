@@ -33,7 +33,7 @@ faili sisestasin rea
 ```
 <?php phpinfo(); ?>
 ```
-
+pilt on saadaval praks3 kaustas .png failina
 
 
 järgmisena tegin nano /etc/apache2/apache2.conf ja lisasin rea Include /etc/phpmyadmin/apache.conf ja tegin
