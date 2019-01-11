@@ -39,3 +39,11 @@ pilt on saadaval praks3 kaustas .png failina
 järgmisena tegin nano /etc/apache2/apache2.conf ja lisasin rea Include /etc/phpmyadmin/apache.conf ja tegin
 systemctl restart apache2 käsuga apache teenusele restarti. Järgmisena läksin phpmyadmin lehele sisestades 172.23.13.49/phpmyadmin ja logisin
 sisse kontoga root ja parooliga qwerty
+
+
+kasutajale oma lehe saamiseks tegin public_html kausta test.php faili, kuhu sisestasin tavalise teksti ning php käsuks panin <?php echo '<p> Kasutaja enda leht </p>'; ?>
+
+kuna apache-l on defaultist keelatud php moodulid siis muutsin /etc/apache2/mods-enabled/php7.0.conf failis userdirmodule read commentiga ära.
+
+
+kõik vajaminevad failid on olemas praks3 kaustas
