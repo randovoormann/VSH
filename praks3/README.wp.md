@@ -125,10 +125,10 @@ cp wp-config-sample.php wp-config.php
 nano wp-config.php
 ´´´
 
-userfriendly lehe jaoks muutsin settings ja permalinks alt custrom structure /%postname%/ ja salvestasin
 
 seal failis muutsin ära wp database, useri ja passwordi.
 
+userfriendly lehe jaoks muutsin settings ja permalinks alt custrom structure /%postname%/ ja salvestasin
 
 
 muudetud fail ja pilt on lisatud kausta
