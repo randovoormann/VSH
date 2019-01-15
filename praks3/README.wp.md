@@ -86,3 +86,45 @@ peale mida tegin apachele reload ja peale seda openssl s_client -connect 172.23.
 ning läksin brauseris lehele https://172.23.13.49
 
 pilt on lisatud kausta
+
+
+# wordpress paigaldamine
+
+tegin mysql andmebaasi ja kasutaja ning määrasin õigused 
+```
+mysql> CREATE DATABASE wpdatabase;
+mysql> CREATE USER wpuser@localhost IDENTIFIED BY ‘wppass’;
+mysql> GRANT ALL PRIVILEGES ON wpdatabase.* TO wpuser@localhost; 
+mysql> FLUSH PRIVILEGES;
+mysql> exit
+```
+seejärel tegin apache ja mysql teenustele restarti.
+
+peale seda installisin ka zip käsu tehes apt install zip
+
+peale seda laadisin alla wordpressi uusima versiooni
+```
+cd /tmp
+wget -c http://wordpress.org/latest.zip
+unzip -q latest.zip -d /var/www/html/
+```
+
+
+seejärel määrasin õigused ja tegin vajalikud kaustad jne
+
+```
+chown -R www-data.www-data /var/www/html/wordpress
+chmod -R 755 /var/www/html/wordpress
+mkdir -p /var/www/html/wordpress/wp-content/uploads
+chown -R www-data.www-data /var/www/html/wordpress/wp-content/uploads
+```
+
+´´´
+cd /var/www/html/wordpress/
+cp wp-config-sample.php wp-config.php
+nano wp-config.php
+´´´
+
+seal failis muutsin ära wp database, useri ja passwordi.
+
+muudetud fail ja pilt on lisatud kausta
