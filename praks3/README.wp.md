@@ -63,3 +63,26 @@ kuna apache-l on defaultist keelatud php moodulid siis muutsin /etc/apache2/mods
 
 
 kõik vajaminevad failid on olemas praks3 kaustas
+
+
+# lehele https paigaldamine
+
+algselt tegin apt update ja peale seda apt upgrade openssl
+
+järgmisena a2enmod ssl ja a2ensite default-ssl, peale mida tegin apachele reload
+
+järgmisena tegin /etc/apache2 kausta sisse ssl kausta.
+
+peale seda käivitasin käsu openssl req -x509 -nodes -days 365 -newkey rsa:2048 -keyout /etc/apache2/ssl/apache.key -out /etc/apache2/ssl/apache.crt ja täitsin vajalikud väljad.
+
+seejärel tegin nano /etc/apache2/sites-enabled/default-ssl.conf ja muutsin read 
+```
+ServerName vsh-rando:443
+SSLCertificateFile /etc/apache2/ssl/apache.crt
+SSLCertificateKeyFile /etc/apache2/ssl/apache.key
+```
+
+peale mida tegin apachele reload ja peale seda openssl s_client -connect 172.23.13.49:443
+ning läksin brauseris lehele https://172.23.13.49
+
+pilt on lisatud kausta
