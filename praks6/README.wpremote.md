@@ -71,6 +71,8 @@ nano wp-config.php
 
 wp-config.php failis muutsin ära useri, passwordi, database name ja ka hostname. hostname kohale panin 10.0.2.6
 
+wp-config.php fail asub praks6 kaustas
+
 # klient
 
 kliendi arvutile paigaldasin ubuntu 16.04 ja määrasin sellele 4GB RAM ja 10GB ketast.
