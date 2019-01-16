@@ -119,11 +119,13 @@ mkdir -p /var/www/html/wordpress/wp-content/uploads
 chown -R www-data.www-data /var/www/html/wordpress/wp-content/uploads
 ```
 
-´´´
+```
+
 cd /var/www/html/wordpress/
 cp wp-config-sample.php wp-config.php
 nano wp-config.php
-´´´
+
+```
 
 
 seal failis muutsin ära wp database, useri ja passwordi.
