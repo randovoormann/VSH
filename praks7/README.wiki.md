@@ -12,3 +12,5 @@ Touch käsuga tegin ka wiki/data kausta sisse changes.log faili.
 lehele minemiseks sisestasin aadressi ribale 192.23.13.49/dokuwiki ning seejärel avanes wiki avaleht. Paremal tekstivälja kõrval oli edit this page ning muutsin lehte.
 
 erinevad lehe muutmise failid asuvad /var/www/html/dokuwiki/data/pages kaustas.
+
+sinna samasse kausta saab teha ka erinevate lehtede .txt failid, mida saab linkida erinevatele lehtedele kasutades [[2ndpage]] kujul süntaksi (2 kandilist sulgu, lehe faili nimi ilma laiendita, 2 kandilist sulgu).
