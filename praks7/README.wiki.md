@@ -25,3 +25,11 @@ kuskile veebilehele suunamiseks tuleb sisestada süntaks kujul näiteks:
 ```
 
 see tekitab wiki lehele lause "This Link points to google", millele vajutades lähed google avalehele. 
+
+
+pealkirjade loomiseks tuleb teha
+```
+==== kolmas tase ====
+=== neljas ===
+== viies ==
+``` 
