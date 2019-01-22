@@ -33,3 +33,5 @@ pealkirjade loomiseks tuleb teha
 === neljas ===
 == viies ==
 ``` 
+
+piltide lisamiseks tuleb kasutada loogelisi sulgusid.
