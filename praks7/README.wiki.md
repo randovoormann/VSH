@@ -34,4 +34,4 @@ pealkirjade loomiseks tuleb teha
 == viies ==
 ``` 
 
-piltide lisamiseks tuleb kasutada loogelisi sulgusid.
+piltide lisamiseks tuleb kasutada loogelisi sulgusid {{}}.
