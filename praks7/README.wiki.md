@@ -2,7 +2,7 @@
 
 dokuwiki paigaldamiseks tegin enne apt update.
 
-seejärel tegin otsisin dokuwiki lehelt https://download.dokuwiki.org/get?id=8a269cc015a64b40e4c918699f1e1142 uusima versiooni download lingi.
+seejärel otsisin dokuwiki lehelt https://download.dokuwiki.org/get?id=8a269cc015a64b40e4c918699f1e1142 uusima versiooni download lingi.
 
 antud lingiga tegin wget ning pakkisin tar-xzvf käsuga selle lahti.
 Tekkinud kausta tõstsin /var/www/html kausta ja määrasin antud kaustale grupiks/omanikuks www-data käskudega:
