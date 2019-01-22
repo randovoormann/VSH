@@ -18,3 +18,10 @@ lehele minemiseks sisestasin aadressi ribale 192.23.13.49/dokuwiki ning seejäre
 erinevad lehe muutmise failid asuvad /var/www/html/dokuwiki/data/pages kaustas.
 
 sinna samasse kausta saab teha ka erinevate lehtede .txt failid, mida saab linkida erinevatele lehtedele kasutades [[2ndpage]] kujul süntaksi (2 kandilist sulgu, lehe faili nimi ilma laiendita, 2 kandilist sulgu).
+
+kuskile veebilehele suunamiseks tuleb sisestada süntaks kujul näiteks:
+```
+[[http://www.google.com|This Link points to google]]
+```
+
+see tekitab wiki lehele lause "This Link points to google", millele vajutades lähed google avalehele. 
