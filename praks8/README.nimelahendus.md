@@ -1,5 +1,5 @@
 # Virtual hosts ehk nime lahendus
-Alustuseks tegin uue kausta nimega rando.ee asukohta /var/www/ Sinna sisse tegin index.html faili. Kaustadele andsin õigused käskudega
+Alustuseks tegin uue kausta nimega rando.ee asukohta /var/www/ ning sinna sisse tegin index.html faili. Kaustadele andsin õigused käskudega
 ```
 chown -R www-data /var/www/rando.ee
 chgrp -R www-data /var/www/rando.ee
